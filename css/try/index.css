@@ -1,0 +1,111 @@
+.main {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* 选择main下所有的div */
+
+.main>div {
+    width: 100%;
+}
+
+
+/* 标题 */
+
+.main .title {
+    height: 128px;
+}
+
+.main .title h1 {
+    font-size: 40px;
+    line-height: 128px;
+    text-align: center;
+    font-weight: normal;
+}
+
+
+/* 页面标签 */
+
+.main .web-nav {
+    height: 42px;
+}
+
+.main .web-nav .inner {
+    height: 42px;
+    text-align: center;
+}
+
+.main .web-nav .inner a {
+    display: inline-block;
+    width: 165px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    padding-bottom: 12px;
+    color: #a3a3a3;
+}
+
+.main .web-nav .inner a.active {
+    color: #fe5431;
+    border-bottom: 4px #fe5431 solid;
+    padding-bottom: 8px;
+}
+
+
+/* 选项卡导航 */
+
+.main .tab-nav {
+    height: 50px;
+    border-top: 1px solid #f0f0f0;
+    text-align: center;
+    line-height: 50px;
+}
+
+.main .tab-nav .inner {
+    height: 50px;
+}
+
+.main .tab-nav .inner li {
+    display: inline-block;
+    width: 165px;
+    font-size: 18px;
+    color: #a3a3a3;
+    cursor: pointer;
+}
+
+.main .tab-nav .inner li.active {
+    color: #474747;
+}
+
+
+/* 选项卡内容区域 */
+
+.main .tab-box {
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+.main .tab-box .inner {
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.main .tab-box .inner .box {
+    overflow: hidden;
+    display: none;
+}
+
+.main .tab-box .inner .box.show {
+    display: block;
+    text-align: center;
+}
+
+.main .tab-box .inner .box .con {
+    margin-bottom: 35px;
+}
+
+.main .tab-box .inner .box .no-more {
+    display: block;
+    margin-bottom: 20px;
+}

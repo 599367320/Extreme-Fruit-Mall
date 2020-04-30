@@ -1,0 +1,218 @@
+/* 广告区域 */
+
+.header .banner {
+    width: 100%;
+    height: 300px;
+    background: url(../img/original.jpg) center top no-repeat;
+}
+
+.header .banner .inner {
+    height: 254px;
+    padding-top: 46px;
+    text-align: right;
+    color: #fff;
+    /* 添加自定义动画 */
+    animation: rotateIn 1s linear;
+}
+
+.header .banner .inner h2 {
+    margin-bottom: 15px;
+    font-size: 34px;
+}
+
+.header .banner .inner .label {
+    margin-bottom: 22PX;
+}
+
+.header .banner .inner .label span {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-right: 14px;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.header .banner .inner .time {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header .banner .inner .btn {
+    display: inline-block;
+    width: 240px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    background-color: #fe5341;
+    font-size: 24px;
+    color: #fff;
+}
+
+
+/* 页面主体部分 */
+
+.main {
+    overflow: hidden;
+}
+
+
+/* 热门试用 */
+
+.main .hot-box {
+    width: 100%;
+    height: 380px;
+}
+
+.main .inner {
+    position: relative;
+    height: 100%;
+}
+
+.main .hot-box .inner {
+    height: 380px;
+}
+
+
+/* 标题 */
+
+.main .inner .title {
+    height: 66px;
+    line-height: 66px;
+    font-size: 20px;
+}
+
+
+/* 查看更多 */
+
+.main .inner .more {
+    position: absolute;
+    top: 22px;
+    right: 0;
+    color: #fd6959;
+    font-size: 14px;
+    padding-right: 17px;
+    background: url(../img/readMore.png) right center no-repeat;
+}
+
+
+/* 无缝滚动轮播图 */
+
+.main .hot-box .inner .slide-box {
+    width: 1002px;
+    height: 288px;
+    position: relative;
+}
+
+
+/* 按钮 */
+
+.main .hot-box .inner .slide-box .prev,
+.main .hot-box .inner .slide-box .next {
+    display: block;
+    width: 37px;
+    height: 78px;
+    position: absolute;
+    top: 120px;
+}
+
+.main .hot-box .inner .slide-box .prev {
+    background-image: url(../img/prev.png);
+    left: -60px;
+}
+
+.main .hot-box .inner .slide-box .next {
+    background-image: url(../img/next.png);
+    right: -60px;
+}
+
+
+/* 显示窗口 */
+
+.main .hot-box .inner .slide-box .hot {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main .hot-box .inner .slide-box .hot ul {
+    width: 300%;
+    height: 100%;
+    position: relative;
+}
+
+.main .hot-box .inner .slide-box .hot ul li {
+    width: 1002px;
+    height: 100%;
+    float: left;
+}
+
+
+/* 报告精选 */
+
+.main .report-box {
+    width: 100%;
+    height: 592px;
+    background-color: #ddd;
+}
+
+
+/* 导购精选 */
+
+.main .guide {
+    width: 100%;
+    height: 348px;
+}
+
+.main .guide .inner ul li {
+    height: 225px;
+    margin-bottom: 35px;
+}
+
+
+/* 发现酷玩 */
+
+.main .play {
+    width: 100%;
+    overflow: hidden;
+    background-color: #f7f7f7;
+}
+
+
+/* 自定义广告文字飞入效果动画 */
+
+@keyframes rotateIn {
+    0% {
+        transform: translate(800px, -800px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@-webkit-keyframes rotateIn {
+    0% {
+        transform: translate(800px, -800px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@-moz-keyframes rotateIn {
+    0% {
+        transform: translate(800px, -800px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@-ms-keyframes rotateIn {
+    0% {
+        transform: translate(800px, -800px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

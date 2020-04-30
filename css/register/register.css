@@ -1,0 +1,80 @@
+.main {
+    padding-top: 25px;
+    padding-bottom: 35px;
+    background-color: #f7f7f7;
+}
+
+.main .reg-box {
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.main .reg-box .title {
+    position: relative;
+    padding: 20px 0 20px 25px;
+    font-size: 20px;
+    color: #474747;
+    line-height: 1.6;
+    font-weight: normal;
+}
+
+.main .reg-box .title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 6px;
+    height: 25px;
+    left: 0;
+    top: 24px;
+    background-color: #fe5341;
+}
+
+.main .reg-box .reg-form {
+    width: 400px;
+    margin: 50px auto 150px;
+}
+
+.main .reg-box .reg-form p {
+    margin-top: 27px;
+}
+
+.main .reg-box .reg-form p:nth-child(2) {
+    position: relative;
+}
+
+.main .reg-box .reg-form p input {
+    width: 100%;
+    height: 50px;
+    padding-left: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    color: #a3a3a3;
+    box-sizing: border-box;
+}
+
+.main .reg-box .reg-form p:nth-child(2) input {
+    width: 245px;
+}
+
+.main .reg-box .reg-form p:nth-child(2) img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.main .reg-box .reg-form p button {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #fe5341;
+    border: medium none;
+    border-radius: 10px;
+    cursor: pointer;
+}

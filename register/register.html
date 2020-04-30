@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- <html lang="en"> -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册</title>
+    <!-- 引入重置默认样式 -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <!-- 引入公共样式表 -->
+    <link rel="stylesheet" href="../css/common.css">
+    <!-- 引入在线字体图标 -->
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1768380_2r14gdmx5ws.css">
+
+    <link rel="stylesheet" href="../css/register/register.css">
+
+
+    <!-- 引入jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <script src="../js/register/register.js"></script>
+</head>
+
+<body>
+    <!-- 页面头部 -->
+    <div class="header">
+        <div class="header-top">
+            <!-- 内容区域 -->
+            <div class="inner">
+                <!-- logo -->
+                <div class="logo">
+                    <h1>
+                        <a href="../index.html">极果</a>
+                    </h1>
+                </div>
+                <!-- 导航 -->
+                <div class="nav">
+                    <ul>
+                        <li><a href="../index.html">首页</a></li>
+                        <li><a href="#">酷玩</a></li>
+                        <li><a href="#">导购</a></li>
+                        <li><a href="../try/index.html">试用</a></li>
+                        <li><a href="#">报告</a></li>
+                    </ul>
+                </div>
+                <!-- 注册按钮 -->
+                <a href="../register/register.html" class="register">注册</a>
+                <!-- 搜索图标 格式：class="icon iconfont xxxx" -->
+                <span class="search">
+                    <i class="icon iconfont icon-sousuo"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 注册表单区域 -->
+    <div class="main">
+        <div class="inner reg-box">
+            <h2 class="title">注册极果</h2>
+            <!-- 注意：name不能跟class相同 -->
+            <form class="reg-form" name="my_form" action="" method="post" onsubmit="return check();">
+                <p>
+                    <input type="text" placeholder="请输入登录的手机号" name="phone">
+                </p>
+                <p>
+                    <input type="text" placeholder="请输入图片校验码" name="imgCode">
+                    <img src="../img/imgCode.jpg" alt="">
+                </p>
+                <p>
+                    <input type="text" placeholder="请输入邮箱" name="email">
+                </p>
+                <p>
+                    <input type="text" placeholder="请输入用户名" name="username">
+                </p>
+                <p>
+                    <input type="text" placeholder="请输入密码" name="password1">
+                </p>
+                <p>
+                    <input type="text" placeholder="请确认密码" name="password2">
+                </p>
+                <p>
+                    <button id="submit">立即注册</button>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <!-- 页面页脚 -->
+    <div class="footer">
+        <div class="inner footer-box">
+            <ul class="fix">
+                <li class="wx">
+                    <img src="../img/code.png" alt="">
+                </li>
+                <li class="introduction">
+                    <p>
+                        <img src="../img/logoImg.jpg" alt="">
+                    </p>
+                    <span>全球酷玩试用导购平台 <br> 酷·新奇·好玩·品质</span>
+                    <span>微信添加“xxxxxxxx” <br> 获取我们的服务</span>
+                </li>
+                <li class="try">
+                    <p class="title">免费试用</p>
+                    <a href="#">试用流程</a>
+                    <a href="#">如何提高成功率</a>
+                </li>
+                <li class="link">
+                    <p class="title">友情链接</p>
+                    <a href="#" class="left">智东西</a>
+                    <a href="#" class="right">WEIBUSI</a>
+                    <a href="#" class="left">搜狐IT</a>
+                    <a href="#" class="right">腾讯科技</a>
+                    <a href="#" class="left">搜狐数码</a>
+                    <a href="#" class="right">凤凰科技</a>
+                    <a href="#" class="left">凤凰数码</a>
+                    <a href="#" class="right">PConline</a>
+                    <a href="#" class="left">泡泡网</a>
+                    <a href="#" class="right">3W咖啡</a>
+                    <a href="#" class="left">ZUK社区</a>
+                    <a href="#" class="right">亿觅emie</a>
+                    <a href="#" class="left">极客公园</a>
+                    <a href="#" class="right">易迅易启玩</a>
+                    <a href="#" class="left">果库</a>
+                </li>
+                <li class="raiders">
+                    <p class="title">购买攻略</p>
+                    <a href="#">美亚海淘教程</a>
+                    <a href="#">日亚海淘教程</a>
+                    <a href="#">海淘转运攻略</a>
+                    <a href="#">kickstarter 众筹购买攻略</a>
+                    <a href="#">indiegogo 众筹购买攻略</a>
+                </li>
+                <li class="cooperation">
+                    <p class="title">厂商合作</p>
+                    <a href="#">关于极果</a>
+                    <a href="#">联系我们</a>
+                    <a href="#">商务合作：BD@jiguo.com</a>
+                    <a href="#">CEO邮箱：CEO@jiguo.com</a>
+                </li>
+            </ul>
+            <p class="copy">© 2016 极果版权所有</p>
+        </div>
+    </div>
+</body>
+
+</html>
